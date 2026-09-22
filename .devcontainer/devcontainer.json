@@ -24,15 +24,16 @@
 	 "features": {
 		"ghcr.io/devcontainers/features/git-lfs:1": {
       "autoPull": true
-    }
+    },
+	"ghcr.io/jsburckhardt/devcontainer-features/uv:1": {}
 
-	 }
+	 },
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "python --version",
+    "postCreateCommand": "uv add df2img shap",
 
 	// Configure tool-specific properties.
 	// "customizations": {},
