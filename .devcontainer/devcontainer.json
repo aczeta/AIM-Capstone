@@ -13,7 +13,10 @@
 				"mechatroner.rainbow-csv",
 				"ms-toolsai.jupyter",
 				"ms-azuretools.vscode-containers"
-			]
+			],
+			"settings": {
+				"python.defaultInterpreterPath": "/opt/conda/bin/python"
+			}
 		}
 	},
 
