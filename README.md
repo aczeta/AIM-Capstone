@@ -1,5 +1,14 @@
 # AIM Capstone
 
+## Repository Overview
+
+- data - contains the dataset csvs.
+- images - contains images produced by the notebooks
+- models - contains the model artefacts saved in joblib format post training
+- notebooks - contain notebooks with reproducible code
+- report - contains md, pdf, and pptx file for the report and slides
+- .devcontainer - contains the configuration files needed for the development environment
+
 ## Problem Statement
 
 Company A owns a website used to allow direct online shopping for its products. For users to shop on the platform, they must have an account with personal data provided for KYC purposes and for using data science to analyze customer behaviour.
