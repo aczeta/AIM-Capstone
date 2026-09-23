@@ -7,7 +7,9 @@
 - models - contains the model artefacts saved in joblib format post training
 - notebooks - contain notebooks with reproducible code
 - report - contains md, pdf, and pptx file for the report and slides
-- .devcontainer - contains the configuration files needed for the development environment
+- .devcontainer - contains the configuration files needed for the reproducible development environment. Also removes the need for requirements.txt used by pip.
+
+
 
 ## Problem Statement
 
